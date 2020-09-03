@@ -7,14 +7,19 @@
 	<body>
 		This is my index.html page
 		<div x-data="{ open: false }">
-			<button @click="open = true">Open Dropdown</button>
+			<button @click="open = true">Open for information</button>
 		
 			<ul
 				x-show="open"
 				@click.away="open = false"
-			>
-				Dropdown Body
+				<div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+				</div>
+			<div class="text-green-500">
+				My name is Jackson Wilson and I'm from Box Elder, South Dakota.
+				I'm majoring in computer science and I also run crosscountry and track.			
+				</div>
 			</ul>
 		</div>
+		
 	</body>
 </html>
