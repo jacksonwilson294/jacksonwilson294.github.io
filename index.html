@@ -5,6 +5,7 @@
 		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 	</head>
 	<body>
+		<div class="text-red-800">
 		This is my index.html page
 		<div x-data="{ open: false }">
 			<button @click="open = true">Open for information</button>
@@ -12,8 +13,7 @@
 			<ul
 				x-show="open"
 				@click.away="open = false"
-				<div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-				</div>
+		</div>
 			<div class="text-green-500">
 				My name is Jackson Wilson and I'm from Box Elder, South Dakota.
 				I'm majoring in computer science and I also run crosscountry and track.			
