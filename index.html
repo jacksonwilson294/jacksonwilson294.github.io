@@ -11,20 +11,27 @@
 		  </body>
 		<div
 		 
-			 
-			<ul
-				x-show="open"
-				@click.away="open = false"
-				<div class="dropdown">
-					<button onclick="myFunction()" class="dropbtn">Information</button>
-					<ul
-						x-show="open"
-						@click.away="open = false"
-					<div class="background-color-red-600" id="myDropdown" class="dropdown-content">
-					  <a href="#">About Me</a>
-					  <div class="background-color-red-600" id="myDropdown" class="dropdown-content">
-						<a href="#"> Achievements</a>
-					  
+				<!-- Using utilities: -->
+<button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+  Button
+</button>
+
+<!-- Extracting component classes: -->
+<button class="btn btn-blue">
+  Button
+</button>
+
+<style>
+  .btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-blue:hover {
+    @apply bg-blue-600;
+  }
+</style>	  
 					  
 					</div>
 				</div>
