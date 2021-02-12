@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,14 +6,14 @@
     <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> -->
     <script src="/dist/alpine.js" defer></script>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
 </head>
 
 <body>
+    <!-- Memory Game -->
     <div x-data="game()" class="px-10 flex items-center justify-center min-h-screen">
         <h1 class="fixed top-0 right-0 p-10 font-bold text-3xl">
-            
-            
+            <span x-text="points"></span>
+            <span class="text-xs">pts</span>
         </h1>
 
         <div class="flex-1 grid grid-cols-4 gap-10">
@@ -59,14 +58,14 @@
         function game() {
             return {
                 cards: [
-                    { color: 'magenta', flipped: false, cleared: false },
+                    { color: 'green', flipped: false, cleared: false },
                     { color: 'red', flipped: false, cleared: false },
-                    { color: 'aqua', flipped: false, cleared: false },
-                    { color: 'lime', flipped: false, cleared: false },
-                    { color: 'magenta', flipped: false, cleared: false },
+                    { color: 'blue', flipped: false, cleared: false },
+                    { color: 'yellow', flipped: false, cleared: false },
+                    { color: 'green', flipped: false, cleared: false },
                     { color: 'red', flipped: false, cleared: false },
-                    { color: 'aqua', flipped: false, cleared: false },
-                    { color: 'lime', flipped: false, cleared: false },
+                    { color: 'blue', flipped: false, cleared: false },
+                    { color: 'yellow', flipped: false, cleared: false },
                 ].sort(() => Math.random() - .5),
 
                 get flippedCards() {
