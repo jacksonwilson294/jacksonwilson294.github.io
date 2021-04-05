@@ -4,26 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> -->
     <script src=https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js defer></script>
     <link href=https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css rel="stylesheet">
     <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Electronics</a>
+          <a href="#">Clothes</a>
+          <a href="#">Kitchen</a>
+          <a href="#">Shoes</a>
+          <a href="#">Outdoors</a>
+          <a href="#">Sports</a>
+          <a href="#">Nutrition</a>
+          <a href="#">Batroom</a>
+        </div>
       </div>
-      
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-        <h2>Collapsed Sidebar</h2>
-        <p>Content...</p>
-      </div>
+    
     
     
     
