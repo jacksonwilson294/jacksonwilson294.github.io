@@ -41,3 +41,19 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #c53f00;}
+
+
+  section {
+      display: block;
+      width: 400px;
+      height: 160px;
+      background: lightblue;
+  }
+
+  p {
+      width: 50%;
+      height: 50%;
+      margin: 5%;
+      padding: 5%;
+      background: lightcoral;
+  }
