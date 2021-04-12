@@ -43,7 +43,7 @@
   .dropdown:hover .dropbtn {background-color: #c53f00;}
 
 .grid-container {
-  margin: 100px 200px;
+  margin: 100px auto;
   width: 300px;
   height: 400px;
   display: grid;
