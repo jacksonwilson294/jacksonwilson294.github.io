@@ -93,26 +93,41 @@ font-size: 25px;
 }
 .Price1 {
 position: relative;
-left: 95px;
-top: 220px;  
+left: 240px;
+top: 210px;  
 }
 .Price2 {
 position: relative;
-left: 100px;
-top: 215px;  
+left: 240px;
+top: 210px;  
 }
 .Price3 {
 position: relative;
-left: 100px;
-top: 215px;   
+left: 170px;
+top: 205px;   
 }
 .Price4 {
 position: relative;
-left: 100px;
-top: 215px;  
+left: 170px;
+top: 205px;  
 }
 
 .Img1{
+max-width: 40%;
+max-height: 50%;
+
+}
+.Img2{
+max-width: 40%;
+max-height: 50%;
+
+}
+.Img3{
+max-width: 40%;
+max-height: 50%;
+
+}
+.Img4{
 max-width: 40%;
 max-height: 50%;
 
