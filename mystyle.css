@@ -44,8 +44,8 @@
 
 .grid-container {
   margin: 100px 100px;
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 600px;
   display: grid;
   grid-template-columns: 500px 500px;
   grid-row: auto auto;
@@ -59,9 +59,8 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 25px;
 
 }
 .grid-item2 {
@@ -70,9 +69,8 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 25px;
 }
 .grid-item3 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -80,9 +78,8 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 25px;
 }
 .grid-item4 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -92,5 +89,30 @@
   display: flex;
   align-items: right;
   justify-content: center;
-  font-size: 40px;
+  font-size: 25px;
+}
+
+.Price1 {
+  position: relative;
+  left: 95px;
+  top: 220px;
+  
+}
+.Price2 {
+  position: relative;
+  left: 95px;
+  top: 220px;
+  
+}
+.Price3 {
+  position: relative;
+  left: 95px;
+  top: 220px;
+  
+}
+.Price4 {
+  position: relative;
+  left: 95px
+  top: 210px;
+  
 }
