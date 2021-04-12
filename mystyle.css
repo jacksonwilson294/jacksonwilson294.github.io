@@ -43,9 +43,9 @@
   .dropdown:hover .dropbtn {background-color: #c53f00;}
 
 .grid-container {
-  margin: 100px 300px;
+  margin: 100px 200px;
   width: 400px;
-  height: 600px;
+  height: 400px;
   display: grid;
   grid-template-columns: 500px 500px;
   grid-row: auto auto;
