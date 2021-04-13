@@ -33,6 +33,12 @@
     display: block;
   }
   
+  h1{
+    font-size: 2em;
+    font-weight: bold;
+    
+  }
+  
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd;}
   
